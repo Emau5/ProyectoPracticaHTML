@@ -136,16 +136,19 @@ fonts
 stylesheets
 Queries
 
-Cpn Git. Se debe escribir todos los cambios realizados en el proyecto. para llevar un control
+Con Git. Se debe escribir todos los cambios realizados en el proyecto. para llevar un control
 se inicia un repo con
-$git init
-$git config user.name "Nombre"
-$git config user.email "mail@gmail.com"
+    git init                                Inicializar un repositorio Git vacio
+
+    git config user.name "Nombre"            Ya que no me va a dejar reversionar hasta que le diga quien soy.
+    git config user.email "mail@gmail.com"
 
 Cuanto estes listo para agregar archivos al repositorio, se hace a una zona de indice
 para finalizar la confirmacion
-git add .
-git commit -m "Este es nuestro primer commit"
-
-siguen 3 pasitos
-git.cheatsheet
+    git staus                           Muestra el estado de los archivos, si fueron guardados y o midificados. Si dice no hay commit todavia, son las confirmaciones
+    git add .                           Agregas todos los archivos al repositorio.
+    git commit -m "Este es nuestro primer commit"           -m es el mensaje
+    git status                  para poder ver el estadio de los archivos
+    git log                 Validar los archivos, Commit ID. Autor y msj.
+    *Se modifica un archivo.*
+    git diff *nombre del archivo.html*
