@@ -148,6 +148,7 @@ para finalizar la confirmacion
     git staus                           Muestra el estado de los archivos, si fueron guardados y o midificados. Si dice no hay commit todavia, son las confirmaciones
     git add .                           Agregas todos los archivos al repositorio.
     git commit -m "Este es nuestro primer commit"           -m es el mensaje
+    o git commit -a         para agregar varias lines de mensajes
     git status                  para poder ver el estadio de los archivos
     git log                 Validar los archivos, Commit ID. Autor y msj.
     *Se modifica un archivo.*
