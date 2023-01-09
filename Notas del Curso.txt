@@ -1,0 +1,151 @@
+Programador FrontEnd
+Argentina Programa 4.0
+
+
+Notas del Curso
+Fundamentos de la programacion
+Desarrollo Web
+
+En el proyecto final se espera una creacion original del alumno, donde se pueden utilizar fuentes externas, deberan ser citadas de forma completa.
+
+Se aprueba con 6.
+
+
+Modulo Uno:
+iniciar un documento con vsc (Visual Estudio Code)
+index.html
+html:5 para todo el codigo precargado
+<p> parrafo
+Se debe cambiar el language a es
+Capa pieza tiene un valor para el documento
+Css es capa de presentacion
+
+<img src="hola.jpg" alt="hola!"
+nombre de etiqueta + Atributo + valor + alt que es el texto que aparece si la imagen no carga
+
+Se puede editar los documentos por sobre la consola del chrome. 
+Pero no los guarda en ningun lado. Solo vista previa.
+
+Elementos de bloque: Ocupan todo el ancho
+Elementos de Linea: Ocupan solo su espacio
+
+el <p> utiliza todo el espacio
+encambia el <span> solo el espacio necesario
+
+form para crear formularios tipo nombre contrasena
+esta en el archivo form.html
+
+el metodo get manda el valor de las varioables en la URL
+se debe colacar un nombre a cada varioable
+
+si se uisa contrasena nunca utilizar el metodo get, ya que lo muestra en la URL
+se debe poner nombre
+
+El elemento div es un contenbedor. se utiliza para darle color tipo Css
+
+por defecto la pagina de inicio se llama index.html
+
+tener en cuenta la compàtibilidad de direrenbtes navegadores
+
+can i use? es la mejor pagina para ver compatibilidades
+
+favicon. Es el icono que se muertra en la wed. va en el head
+
+Modulo 3
+Css
+el primer ejemplo es colocar el css dentro del head. se llama inline
+
+css box model 
+todos los elementos de html pueden ser considerados cajas
+
+margin, border, padding, relleno.
+
+el asterisco actua como comodin. aplica a todos los elementos del thml
+se puede utilizar id en un elemento en html con un nombre especifo y utilizar #numeral en css para aplicarle estilo
+
+tipografias en css
+font selection is important
+
+Responsive Web Desing
+Es el encargado de ordena bien la pagina web en todos los dispositivos
+Se utiliza el ViewPort (meta)
+Define el area visible en un pagina web
+
+Aplicarle a todos lo elementos:
+* {
+    box-sizing: border-box;
+}
+Esto dice que todos los elementos van a ser adaptados al tamaño de la pantalla (FUll Responsive)
+
+Se puede utilizar las 12 columnas para definir el ancho de la pagina
+100% /12
+
+Media Queries
+Aplica estilos segun el tamaño de pantalla
+se utiliza Css. Hay un codigo. Buscalo en google.
+
+Para cada pantalla hay que definir las clases que deseamos aplicar.
+
+Aqui viene las librearias Full Responsive. Sirven para no tener que escrivir todo el codigo de cero.
+Boorstrap
+Foundation
+tailwindcss
+seguir en redes sociales
+
+BootStrap es una biblioteca multiplataforma milenaria o conjunto de herramientas de codigo abierto pa   ra diseño de sitios y aplicaciones web
+Miles de plantillas Front End con extensiones Javascript
+Utilizar el cheatsheet. Esta dentro de BootStrap
+
+Avalaible Breakpoints.
+BootStrap incluye 6 tipos de breakpoints para poder crear paginas dependiendo el tamaño de dispositivo al cual lo estamos creando.
+Por ejemplo una hoja en cascada para poder verla en un celular.
+
+Dice que hay codigo interno de BootStrap para poder maniplar la pagina en funcion al tañano del dispositivo A travez de los frameworks
+
+En resumen...
+El metaviewport defina el ancho de pantalla por tomar
+los mediaqueris sirven para abarcar diferentes tamaños de pantalla
+la propieda max-width sirve para no deformar imagenes
+el box-model ayuda a planear todo como cajas
+el bootstrap es uno de los frameworks mas populares
+
+bloque 5. Extendiendo CSS y sus frameworks
+Alojamiento y servidores
+
+Web Hosting gratuito: GitHub
+
+Al parecer, el proyecto final es crear un CV
+Crear Landing page.
+
+Encarar el cliente:
+El dominio sale plata, que tiene que hacerse cargo el cliente.
+Tenemos que comprar un dominio
+Se buscar diferentes entidades que comersializan los dominios.
+En argentina es nic.ar
+
+Versionado en el codigo fuente.
+GIT es quien controla las versiones.
+git-scm.com 
+Se Debe Descargar los archivos
+Hasta ahora, para crear una pagina wab se debe tener instalado:
+Visual Studio Code
+Live Preview
+Git para las versiones.
+LO demas se puede conseguir online, como:
+fonts
+stylesheets
+Queries
+
+Cpn Git. Se debe escribir todos los cambios realizados en el proyecto. para llevar un control
+se inicia un repo con
+$git init
+$git config user.name "Nombre"
+$git config user.email "mail@gmail.com"
+
+Cuanto estes listo para agregar archivos al repositorio, se hace a una zona de indice
+para finalizar la confirmacion
+git add .
+git commit -m "Este es nuestro primer commit"
+
+siguen 3 pasitos
+git.cheatsheet

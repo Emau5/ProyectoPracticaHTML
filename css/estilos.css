@@ -1,0 +1,40 @@
+* {
+    font-family: 'Dancing Script', cursive;
+}
+p {
+    color: red;
+    width: 300px;
+}
+/**
+Esto es un comentario
+**/
+h1 {
+    border-radius: 4%;
+    border: 16px solid;
+    border-color: blueviolet;
+    margin: auto;
+    padding: 10%;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding-block: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+}
+
+#miid {
+    color: rgb(59, 206, 174);
+    background-color: rgba(34, 129, 15, 0.322);
+
+}
+
+.miclase {
+    background-color: bisque;
+    font-family: 'Dancing Script', cursive;
+
+}
+section h1 {
+    font-weight: 300px;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+}
