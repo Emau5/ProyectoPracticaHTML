@@ -152,3 +152,12 @@ para finalizar la confirmacion
     git log                 Validar los archivos, Commit ID. Autor y msj.
     *Se modifica un archivo.*
     git diff *nombre del archivo.html*
+
+
+Repositorios remotos
+GitHub
+gitlab
+bitbucket
+
+Subir un Repositorio a GitHub
+
