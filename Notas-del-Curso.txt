@@ -162,3 +162,17 @@ bitbucket
 
 Subir un Repositorio a GitHub
 
+
+Final del Modulo 2 bloque 7
+Podcast de Cierre
+
+Cuestiones en cuenta.
+
+ 1 Validar el alcanze del proyecto. Hablar con el cliente.
+ Cerrar todos los puntos. Landing page.
+ Empezar por papel y lapiz
+ Etapa del bocetado. pertenece a Diseño.
+
+Tecnologias:
+HTML5 CSS3 Git 
+
